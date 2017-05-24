@@ -1,0 +1,23 @@
+{% extends "layout.html" %}
+{% block title %}{{ this.title }}{% endblock %}
+{% block body %}
+  <h1>{{ this.title }}</h1>
+  <div class="row">
+    <div class="home-square col-sm-6">
+      <p>{{ this.body }}</p>
+    </div>
+    <div class="home-square col-sm-6">
+      <img src="/img/cover/1.jpg" class="img-rounded" style="max-width: 100%;">
+    </div>
+    <div class="home-square col-sm-6">
+      <img src="/img/cover/2.jpg" class="img-rounded" style="max-width: 100%;">
+    </div>
+    <div class="home-square col-sm-6">
+      <img src="/img/cover/3.jpg" class="img-rounded" style="max-width: 100%;">
+    </div>
+  </div>
+{% endblock %}
+
+<!-- <img width="600" src="https://api.mapbox.com/v4/mapbox.outdoors/pin-l-heart+70dba8(1.607215,45.714143)/1.604994,45.713941,16/600x300@2x.png?access_token=pk.eyJ1IjoibGVtYXgiLCJhIjoidnNDV1kzNCJ9.iH26jLhEuimYd6vLOO6v1g" alt="Mapbox Map of 1.604994,45.713941">
+© <a href='https://www.mapbox.com/map-feedback/'>Mapbox</a> © <a href='http://www.openstreetmap.org/copyright'>OpenStreetMap contributors</a>
+https://goo.gl/maps/MBqcUEfoZBK2 -->

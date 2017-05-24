@@ -1,0 +1,19 @@
+[project]
+name = ziboinboin.com
+
+[alternatives.en]
+locale = en_US
+name = English
+primary = yes
+
+[alternatives.fr]
+locale = fr
+name = French
+url_prefix = /fr/
+
+[servers.ghpages]
+name = GitHub Pages
+target = ghpages+https://TheBlueParrot/ziboinboin.com?cname=www.ziboinboin.com
+
+[packages]
+lektor-webpack-support = 0.3
