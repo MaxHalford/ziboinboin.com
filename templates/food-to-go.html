@@ -2,20 +2,18 @@
 {% block title %}Food to go{% endblock %}
 {% block body %}
   <h1>Food to go</h1>
-  <p>Work in progress!</p>
-  <!-- <p>There are pots available blabla</p>
   <div class="row text-center">
   {% for item in this.children %}
 
     {% set image = item.attachments.images.first() %}
 
-    <div class="col-sm-6 col-md-4">
-      <a href="{{ item|url }}" style="display:block;">
+    <div class="col-xs-6 col-sm-4 col-md-3">
+      <!-- <a href="{{ item|url }}" style="display:block;"> -->
         <div class="thumbnail">
           <img src="{{ item|url }}/label.jpg">
         </div>
-      </a>
+      <!-- </a> -->
     </div>
   {% endfor %}
-  </div> -->
+  </div>
 {% endblock %}
