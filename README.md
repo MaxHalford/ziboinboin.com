@@ -2,6 +2,8 @@
 
 ## Development
 
-1. `lektor server -f webpack`
+`lektor server -f webpack`
 
 ## Deployment
+
+`lektor build && lektor deploy`
