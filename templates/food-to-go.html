@@ -1,18 +1,13 @@
 {% extends "layout.html" %}
 {% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h1>{{ this.title }}</h1>
+  <h1 class="title">{{ this.title }}</h1>
   <div class="row text-center">
-  {% for item in this.children %}
-
-    {% set image = item.attachments.images.first() %}
-
+  {% for image in this.attachments.images|sort(attribute='path') %}
     <div class="col-xs-6 col-sm-4 col-md-3">
-      <!-- <a href="{{ item|url }}" style="display:block;"> -->
-        <div class="thumbnail">
-          <img src="{{ item|url }}label.jpg">
-        </div>
-      <!-- </a> -->
+      <div class="thumbnail">
+        <img src="{{ image|url }}">
+      </div>
     </div>
   {% endfor %}
   </div>

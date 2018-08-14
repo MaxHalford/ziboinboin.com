@@ -3,11 +3,10 @@
 {% block body %}
   <h1 class="title">{{ this.title }}</h1>
   <div class="row text-center">
-    <div class="col-xs-12 col-sm-6">
-      <img src="flyer-2.jpg" class="img-rounded" style="max-width: 100%;">
-    </div>
-    <div class="col-xs-12 col-sm-6">
-      <img src="flyer-1.jpg" class="img-rounded" style="max-width: 100%;">
-    </div>
+    {% for image in this.attachments.images|sort(attribute='path') %}
+      <div class="col-xs-12 col-sm-6">
+        <img src="{{ image|url }}" class="img-rounded" style="max-width: 100%;">
+      </div>
+    {% endfor %}
   </div>
 {% endblock %}
