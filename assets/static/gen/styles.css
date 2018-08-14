@@ -1,0 +1,109 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);/* Global */
+body {
+  font-family: 'Nunito', sans-serif;
+  font-size: 18px;
+  background-color: #ffffff;
+  background-image: url("/img/background.png"); }
+
+h1, h2, h3, h5, h5 {
+  font-family: 'Nunito', sans-serif;
+  color: #eb6b45; }
+
+.row {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap; }
+
+.row > [class*='col-'] {
+  display: flex;
+  flex-direction: column; }
+
+/* Layout */
+.page {
+  background: #fdf0ec;
+  padding: 10px 20px;
+  float: none;
+  margin: 0 auto; }
+
+.content {
+  min-height: 500px;
+  padding: 20px;
+  padding-top: 0; }
+
+@media (min-width: 992px) {
+  .body {
+    margin: 50px; }
+  .page {
+    margin: 5% 15%;
+    border: 6px solid #eb6b45; } }
+
+/* Phone number */
+.phone-number {
+  color: #eb6b45; }
+
+/* Homepage */
+.home-square {
+  padding: 20px; }
+
+/* General */
+a {
+  color: #eb6b45; }
+
+.active-link {
+  color: #23527c; }
+
+.title {
+  margin-bottom: 30px; }
+
+/* Navigation bar */
+.icon-bar {
+  color: #eb6b45; }
+
+.navbar-default
+.navbar-toggle {
+  border-color: #eb6b45;
+  border-width: 2px; }
+
+.navbar-default
+.navbar-toggle
+.icon-bar {
+  background-color: #eb6b45; }
+
+.navbar {
+  border-radius: 0; }
+
+.navbar-custom {
+  background-color: #fdf0ec;
+  border-color: #fdf0ec;
+  border-radius: 0; }
+
+.navbar-custom .navbar-nav > .active > li {
+  border-color: #eb6b45;
+  border-radius: 2; }
+
+@media (min-width: 768px) {
+  .navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+    vertical-align: top; }
+  .navbar .navbar-collapse {
+    text-align: center; } }
+
+.navbar-custom .navbar-nav > li > a,
+.navbar-custom .navbar-nav > li > a:focus,
+.navbar-custom .navbar-nav > li > a:hover {
+  font-size: 14px;
+  color: #eb6b45;
+  font-weight: 600;
+  border: solid 2px transparent; }
+
+.navbar-custom .navbar-nav > .active > a,
+.navbar-custom .navbar-nav > .active > a:focus,
+.navbar-custom .navbar-nav > .active > a:hover {
+  color: #eb6b45;
+  background-color: #fdf0ec;
+  border: dotted 3px #eb6b45; }
+
+/*# sourceMappingURL=styles.css.map*/

@@ -2,4 +2,3 @@ node_modules/
 webpack/node_modules/
 temp/
 package-lock.json
-assets/static/gen
