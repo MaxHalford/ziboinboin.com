@@ -1,7 +1,7 @@
 @import url(https://fonts.googleapis.com/css?family=Nunito);/* Global */
 body {
   font-family: 'Nunito', sans-serif;
-  font-size: 15px;
+  font-size: 18px;
   background-color: #ffffff;
   background-image: url("/img/background.png"); }
 
@@ -50,6 +50,9 @@ h1, h2, h3, h5, h5 {
 /* General */
 a {
   color: #eb6b45; }
+
+.active-link {
+  color: #23527c; }
 
 .title {
   margin-bottom: 30px; }
@@ -101,6 +104,6 @@ a {
 .navbar-custom .navbar-nav > .active > a:hover {
   color: #eb6b45;
   background-color: #fdf0ec;
-  border: dotted 2px #eb6b45; }
+  border: dotted 3px #eb6b45; }
 
 /*# sourceMappingURL=styles.css.map*/
