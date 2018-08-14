@@ -6,14 +6,12 @@
 <link
   rel="stylesheet"
   href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
   crossorigin="anonymous"
 >
 <!-- Bootstrap Responsive CSS -->
 <link
   rel="stylesheet"
   href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/2.3.2/css/bootstrap-responsive.min.css"
-  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
   crossorigin="anonymous"
 >
 <!-- Custom stylesheet -->
@@ -30,6 +28,12 @@
 <body>
   <div class="page">
     <header>
+
+      <div class="text-center">
+        <a {% if alt == 'en' %} class="active-link"{% endif %} href="{{ '.'|url(alt='en') }}">English</a>
+        <a  style="padding-left: 10px" {% if alt == 'fr' %} class="active-link"{% endif %} href="{{ '.'|url(alt='fr') }}">Français</a>
+      </div>
+
       <div class="text-center">
         <img src="/img/logo.png" width="70%" />
       </div>
@@ -46,35 +50,40 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav">
-            {% for href, title in [
-              ['/', 'Home'],
-              ['/opening-hours', 'Opening hours'],
-              ['/menu', 'Menu'],
-              ['/food-to-go', 'Food to go'],
-              ['/shop', 'Shop'],
-              ['/gallery', 'Gallery']
-            ] %}
-              <li {% if this._path == href %} class="active"{% endif %}>
-                <a href="{{ href|url }}">
-                  {% if this._path == href %}
-                    <b>{{ title }}</b>
-                  {% else %}
-                    {{ title }}
-                  {% endif %}
-                </a>
-              </li>
-            {% endfor %}
-            <li>
+            {% if alt == 'fr' %}
+              {% for href, title in [
+                ['/', 'Accueil'],
+                ['/opening-hours', 'Horaires'],
+                ['/menu', 'Menu'],
+                ['/food-to-go', 'Pots à emporter']
+              ] %}
+                <li {% if this._path == href %} class="active"{% endif %}>
+                  <a style="font-size: 24px;" href="{{ href|url }}">{{ title }}</a>
+                </li>
+              {% endfor %}
+            {% else %}
+              {% for href, title in [
+                ['/', 'Home'],
+                ['/opening-hours', 'Opening hours'],
+                ['/menu', 'Menu'],
+                ['/food-to-go', 'Food to go']
+              ] %}
+                <li {% if this._path == href %} class="active"{% endif %}>
+                  <a style="font-size: 24px;" href="{{ href|url }}">{{ title }}</a>
+                </li>
+              {% endfor %}
+            {% endif %}
+            <!-- <li>
               <a href="https://www.airbnb.co.uk/rooms/7240038">
                 Airbnb
               </a>
-            </li>
+            </li> -->
           </ul>
         </div><!-- /.navbar-collapse -->
       </nav>
     </header>
 
-    <div class="content">
+    <div style="padding-top: 10px" class="content">
       {% block body %}{% endblock %}
     </div>
 

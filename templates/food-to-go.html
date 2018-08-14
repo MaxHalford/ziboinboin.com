@@ -1,7 +1,7 @@
 {% extends "layout.html" %}
-{% block title %}Food to go{% endblock %}
+{% block title %}{{ this.title }}{% endblock %}
 {% block body %}
-  <h1>Food to go</h1>
+  <h1>{{ this.title }}</h1>
   <div class="row text-center">
   {% for item in this.children %}
 
@@ -10,7 +10,7 @@
     <div class="col-xs-6 col-sm-4 col-md-3">
       <!-- <a href="{{ item|url }}" style="display:block;"> -->
         <div class="thumbnail">
-          <img src="{{ item|url }}/label.jpg">
+          <img src="{{ item|url }}label.jpg">
         </div>
       <!-- </a> -->
     </div>
