@@ -34,10 +34,16 @@ h1, h2, h3, h5, h5 {
 
 @media (max-width: 992px) {
   body {
-    padding-right: 0px;
-    padding-left: 0px; }
+    padding-right: 0;
+    padding-left: 0; }
   .content {
-    padding: 0; } }
+    padding: 0; }
+  .col-sm-6 {
+    padding-right: 0;
+    padding-left: 0; }
+  .row {
+    margin-left: 0;
+    margin-right: 0; } }
 
 @media (min-width: 992px) {
   .body {
