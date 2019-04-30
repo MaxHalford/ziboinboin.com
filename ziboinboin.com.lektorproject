@@ -13,7 +13,7 @@ url_prefix = /fr/
 
 [servers.ghpages]
 name = GitHub Pages
-target = ghpages+https://MaxHalford/ziboinboin.com?cname=www.ziboinboin.com
+target = ghpages+https://MaxHalford/ziboinboin.com?cname=ziboinboin.com
 
 [packages]
 lektor-webpack-support = 0.3
