@@ -17,11 +17,11 @@
 <!-- Custom stylesheet -->
 <link
   rel="stylesheet"
-  href="../static/gen/styles.css?h=0363330a"
+  href="./static/gen/styles.css?h=0363330a"
 >
 <script
   type=text/javascript
-  src="../static/gen/app.js?h=0523729a"
+  src="./static/gen/app.js?h=0523729a"
   charset="utf-8">
 </script>
 <title>Ziboinboin</title>
@@ -30,8 +30,8 @@
     <header>
 
       <div style="font-size: 26px" class="text-center">
-        <a  class="active-link" href="../opening-hours/">English</a>
-        <a  style="padding-left: 10px"  href="../fr/opening-hours/">Français</a>
+        <a  class="active-link" href="./">English</a>
+        <a  style="padding-left: 10px"  href="./fr/">Français</a>
       </div>
 
       <div class="text-center">
@@ -52,20 +52,20 @@
           <ul class="nav navbar-nav">
             
               
-                <li >
-                  <a style="font-size: 24px;" href="../">Home</a>
-                </li>
-              
                 <li  class="active">
-                  <a style="font-size: 24px;" href="../opening-hours/">Opening hours</a>
+                  <a style="font-size: 24px;" href="./">Home</a>
                 </li>
               
                 <li >
-                  <a style="font-size: 24px;" href="../menu/">Menu</a>
+                  <a style="font-size: 24px;" href="./opening-hours/">Opening hours</a>
                 </li>
               
                 <li >
-                  <a style="font-size: 24px;" href="../food-to-go/">Food to go</a>
+                  <a style="font-size: 24px;" href="./menu/">Menu</a>
+                </li>
+              
+                <li >
+                  <a style="font-size: 24px;" href="./food-to-go/">Food to go</a>
                 </li>
               
             
@@ -81,8 +81,57 @@
 
     <div class="content">
       
-  <h1 class="text-center title">Opening hours</h1>
-  <div class="row text-center">
+  <h1 class="text-center title">Welcome to the Ziboinboin!</h1>
+  <div class="row">
+    <div class="col-sm-6">
+      <p><p>The Ziboinboin is a restaurant/shop located in the Limousin, in a town called Châteauneuf-la-Forêt. We've been going on since May 2009.</p>
+<p>Our <i>modus openrandi</i> is to propose <b>one set menu per day</b> (with eventual variations for vegetarians and allergies). Each menu has for theme a country. You can also come and enjoy <b>coffee, tea, milkshakes, and cakes</b> in the afternoon. We also sell <a href="/food-to-go">take-away food pots</a>. Last but not least we make fun <b>cocktails</b>.</p>
+<p>We also sell bags, aprons, and other hand sown items.</p>
+<p>We open from May till November. For further information please check the <a href="/opening-hours">opening hours</a> and the <a href="/menu">menu</a>.</p>
+<p>We highly recommend making reservations in advance as we only have <b>16 seats</b>. To make reservations please call us at <b>05.55.35.28.91</b>.</p>
+<p>The address of the restaurant is <a href="https://www.google.fr/maps/place/Ziboinboin/@45.713941,1.6049993,17z/data=!3m1!4b1!4m5!3m4!1s0x47f919b04c665cf5:0xc1dac6f6be597a1a!8m2!3d45.713941!4d1.607188">18 Place de l'Église, 87130 Châteauneuf-la-Forêt</a>.</p>
+</p>
+    </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./a.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./b.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./c.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./d.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./e.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./f.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./g.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./h.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./i.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
+    
+      <div class="home-square col-sm-6">
+        <img src="./j.jpg" class="img-rounded" style="max-width: 100%;">
+      </div>
     
   </div>
 
