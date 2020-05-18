@@ -50,29 +50,6 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navbar">
           <ul class="nav navbar-nav">
-            {% if alt == 'fr' %}
-              {% for href, title in [
-                ['/', 'Accueil'],
-                ['/opening-hours', 'Horaires'],
-                ['/menu', 'Menu'],
-                ['/food-to-go', 'Pots à emporter']
-              ] %}
-                <li {% if this._path == href %} class="active"{% endif %}>
-                  <a style="font-size: 24px;" href="{{ href|url }}">{{ title }}</a>
-                </li>
-              {% endfor %}
-            {% else %}
-              {% for href, title in [
-                ['/', 'Home'],
-                ['/opening-hours', 'Opening hours'],
-                ['/menu', 'Menu'],
-                ['/food-to-go', 'Food to go']
-              ] %}
-                <li {% if this._path == href %} class="active"{% endif %}>
-                  <a style="font-size: 24px;" href="{{ href|url }}">{{ title }}</a>
-                </li>
-              {% endfor %}
-            {% endif %}
             <!-- <li>
               <a href="https://www.airbnb.co.uk/rooms/7240038">
                 Airbnb
