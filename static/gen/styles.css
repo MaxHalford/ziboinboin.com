@@ -7,7 +7,7 @@ body {
 
 h1, h2, h3, h5, h5 {
   font-family: 'Nunito', sans-serif;
-  color: rgb(1, 137, 159); }
+  color: #eb6b45; }
 
 .row {
   display: -webkit-box;
@@ -22,7 +22,7 @@ h1, h2, h3, h5, h5 {
 
 /* Layout */
 .page {
-  background: rgb(217, 245, 255);
+  background: #fdf0ec;
   padding: 10px 20px;
   float: none;
   margin: 0 auto; }
@@ -50,11 +50,11 @@ h1, h2, h3, h5, h5 {
     margin: 50px; }
   .page {
     margin: 5% 15%;
-    border: 6px solid rgb(1, 137, 159); } }
+    border: 6px solid #eb6b45; } }
 
 /* Phone number */
 .phone-number {
-  color: rgb(1, 137, 159); }
+  color: #eb6b45; }
 
 /* Homepage */
 .home-square {
@@ -62,7 +62,7 @@ h1, h2, h3, h5, h5 {
 
 /* General */
 a {
-  color: rgb(1, 137, 159); }
+  color: #eb6b45; }
 
 .active-link {
   color: #23527c; }
@@ -72,28 +72,28 @@ a {
 
 /* Navigation bar */
 .icon-bar {
-  color: rgb(1, 137, 159); }
+  color: #eb6b45; }
 
 .navbar-default
 .navbar-toggle {
-  border-color: rgb(1, 137, 159);
+  border-color: #eb6b45;
   border-width: 2px; }
 
 .navbar-default
 .navbar-toggle
 .icon-bar {
-  background-color: rgb(1, 137, 159); }
+  background-color: #eb6b45; }
 
 .navbar {
   border-radius: 0; }
 
 .navbar-custom {
-  background-color: rgb(217, 245, 255);
-  border-color: rgb(217, 245, 255);
+  background-color: #fdf0ec;
+  border-color: #fdf0ec;
   border-radius: 0; }
 
 .navbar-custom .navbar-nav > .active > li {
-  border-color: rgb(1, 137, 159);
+  border-color: #eb6b45;
   border-radius: 2; }
 
 @media (min-width: 768px) {
@@ -108,15 +108,15 @@ a {
 .navbar-custom .navbar-nav > li > a:focus,
 .navbar-custom .navbar-nav > li > a:hover {
   font-size: 14px;
-  color: rgb(1, 137, 159);
+  color: #eb6b45;
   font-weight: 600;
   border: solid 2px transparent; }
 
 .navbar-custom .navbar-nav > .active > a,
 .navbar-custom .navbar-nav > .active > a:focus,
 .navbar-custom .navbar-nav > .active > a:hover {
-  color: rgb(1, 137, 159);
-  background-color: rgb(217, 245, 255);
-  border: dotted 3px rgb(1, 137, 159); }
+  color: #eb6b45;
+  background-color: #fdf0ec;
+  border: dotted 3px #eb6b45; }
 
 /*# sourceMappingURL=styles.css.map*/
